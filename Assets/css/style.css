@@ -1,0 +1,169 @@
+<style>
+.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+a:link {
+	text-decoration:none;
+}
+
+header {
+   	height:76px;
+    color: white;
+    background-color: #ffffff;
+    clear: both;
+    top-margin:none;
+    border-bottom-style:solid;
+    border-bottom-color:#777777;
+
+}
+
+body {
+	background-color:#ffffff;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding:20px;
+  background-color: gray;
+  text-align: center;
+  color:#ffffff;
+  border-top-style:solid;
+  border-top-color:#4aaaa5;
+  margin-left:auto;
+  margin-right: auto
+}
+
+aside {
+    float: right;
+    width: 220px;
+    margin-right: 270px;
+    margin-top:50px;
+    padding: 1em;
+    background-color:#ffffff;
+    font-family:'Arial', Helvetica, sans-serif;;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 100px;
+    margin-top:50px;
+    color:black;
+    overflow:hidden;
+    float: left;
+    background-color:#ffffff;
+    width:550px;
+    padding:10px;
+    font-family:'Arial', Helvetica, sans-serif;
+}
+
+.fontchange {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.wrapper {
+	padding: 20px
+  width: 570px;
+  margin: 0 auto;
+}
+#fixed {
+    position: fixed;
+  top: 40px;
+  bottom: 550px;
+  left:30px;
+  padding: 50px;
+  margin-left: 20px;
+  text-align: center;
+  background: #4aaaa5;
+  font-size:30px;
+}
+
+.astext {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+}
+
+#absolute {
+	position: absolute;
+	float:left;
+	margin-left: 110px;
+	margin-top:0;
+	padding:20.5px;
+	width:200px;
+	text-align:center;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size:30px;
+
+}
+
+.wholemenu {
+	position:absolute;
+	margin-left:700px;
+	margin-top:20px;
+	display:flex;
+	background-color:#ffffff;
+	list-style-type:none;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:#777777;
+}
+
+.menu {
+	width:30px;
+	background-color:#ffffff;
+	color:#777777;
+}
+.git { 
+	float:left;
+}
+.linkedin {
+	float:left;
+}
+.so {
+	float:left;
+}
+
+.menu1, .menu2, .menu3 {
+	padding:10px;
+	width: 30%;
+	font-size:17px;
+}
+
+.greycolor {
+	color:#777777;
+}
+
+.tealcolor {
+	color:#4aaaa5
+}
+
+.text {
+	color:#777777;
+	letter-spacing: 1px
+}
+
+.mainpic {
+	float:left;
+	padding:5px;
+}
+
+html {
+	background-image:url("../images/background.png");
+	background-repeat:repeat;
+}
